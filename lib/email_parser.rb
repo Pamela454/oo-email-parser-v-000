@@ -14,5 +14,6 @@ class EmailParser
     emails.split.map do |email|
     self.emails.split("," " ")
   end
+  end
 
 end
