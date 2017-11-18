@@ -15,6 +15,7 @@ class EmailParser
     email.split(',' ' ')
     end.flatten.uniq
   end
+end
   end
 
 end
