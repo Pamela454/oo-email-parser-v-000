@@ -11,7 +11,7 @@ class EmailParser
 
   def parse #take in emails
     #split emails based on commas or whitespace
-    emails.split.map do |email|
+    emails.split.map do |email| #creates a new array with values from the block 
     email.split(',')
   end.flatten.uniq #form a new array
   end
