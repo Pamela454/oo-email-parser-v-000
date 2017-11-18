@@ -6,7 +6,7 @@ class EmailParser
   attr_accessor :email #set and get a list of emails
 
 
-  def parse(email) #take in emails
+  def self.parse(email) #take in emails
     #split emails based on commas or whitespace
     email.split("," " ")
   end
