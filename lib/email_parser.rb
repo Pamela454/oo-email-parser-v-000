@@ -13,6 +13,7 @@ class EmailParser
     #split emails based on commas or whitespace
     emails.split.map do |email|
     email.split(',' ' ')
+  end.flatten.uniq
   end
   end
 
