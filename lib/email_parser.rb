@@ -9,6 +9,7 @@ class EmailParser
 
   def self.parse(emails) #take in emails
     #split emails based on commas or whitespace
-    emails.split("," " ")
+    emails.collect do |email|
+    email.split("," " ")
   end
 end
