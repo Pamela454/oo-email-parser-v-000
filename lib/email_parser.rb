@@ -7,6 +7,7 @@ class EmailParser
 
   def initialize(emails)
     @emails = emails 
+  end
 
   def self.parse #take in emails
     #split emails based on commas or whitespace
