@@ -5,9 +5,10 @@
 class EmailParser
   attr_accessor :email #set and get a list of emails
 
-  emails = []
+  def initialize(emails)
+    @emails = emails 
 
-  def self.parse(emails) #take in emails
+  def self.parse #take in emails
     #split emails based on commas or whitespace
     emails.collect do |email|
     email.split("," " ")
