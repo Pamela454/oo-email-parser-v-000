@@ -12,5 +12,5 @@ class EmailParser
     #emails.collect do |email|
     email.split("," " ")
   end
-  end
+  #end
 end
