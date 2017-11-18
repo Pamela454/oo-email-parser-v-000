@@ -7,7 +7,7 @@ class EmailParser
 
   emails = csv_data
 
-  def self.parse(email) #take in emails
+  def self.parse(emails) #take in emails
     #split emails based on commas or whitespace
     email.split("," " ")
   end
