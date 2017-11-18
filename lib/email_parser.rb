@@ -12,7 +12,6 @@ class EmailParser
   def self.parse #take in emails
     #split emails based on commas or whitespace
     self.emails.split("," " ")
-    emails
   end
 
 end
